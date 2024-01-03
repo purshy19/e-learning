@@ -1,0 +1,6 @@
+runtime: python39  # Specify the runtime you are using
+handlers:
+- url: /static
+  static_dir: www
+- url: /.*
+  script: auto
